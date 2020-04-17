@@ -1,0 +1,25 @@
+/* Text and format*/
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+/* Background color */
+body {
+    width: 600px;
+    margin: 0 auto;
+}
+p, li {
+    background-color:rgb(190, 190, 189);
+}
