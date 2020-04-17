@@ -1,3 +1,7 @@
+// To do:
+// This does not use local storage. I need to apply the local storage approach used in the first Mozilla app. 
+
+
 var SelectHtml = document.querySelector('html');
 var createInfo = document.createElement('p');
 var createList = document.createElement('ul');
@@ -24,5 +28,7 @@ SelectHtml.onclick = function() {
         this.textContent = listContent;
     }
 }
+
+
 
 
